@@ -8,8 +8,66 @@ Note that you may need administrative privileges to perform some of the followin
   - Verify with `python --version`
 - [Upgrade `pip`](https://pip.pypa.io/en/stable/installing/#upgrading-pip)
   - `python -m pip install -U pip`
-  - Verify with `pip --version``
+  - Verify with `pip --version`
 - [pytest](http://docs.pytest.org/en/latest/getting-started.html)
   - `pip install -U pytest`
   - Verify with `py.test --version`
-  
+
+
+## Carcassonne
+Game concepts, entities, rules, actions, etc.
+
+- Game
+  - Turn Order
+  - End Condition
+  - Win Condition
+- Turn
+  - Actions
+    - Required
+      - Draw Tile
+      - Place Tile
+      - Score Completed Features
+    - Optional
+      - Place Follower
+- Player
+  - Starting Player
+  - Score
+  - Color
+  - Supply
+  - Place Tile
+- Board
+  - Placed Tiles
+  - Coordinate System
+- Deck
+  - Shuffle
+  - Draw Tile
+- Tile
+  - Start Tile
+  - Sides
+  - Type
+  - Location
+    - Deck
+    - Board
+      - Coordinates
+  - Features
+    - Road Sections
+    - Crossroads
+    - City Sections
+      - Banner
+    - Field Sections
+    - Monasteries
+    - River Sections
+    - River Source
+    - Lake
+- Follower
+  - Color
+  - Type
+    - Thief
+    - Knight
+    - Monk
+    - Farmer
+- Rules
+  - Tile Placement
+  - Feature Completion
+  - Feature Scoring
+  - Starting Player
