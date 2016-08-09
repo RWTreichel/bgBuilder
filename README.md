@@ -12,7 +12,9 @@ Note that you may need administrative privileges to perform some of the followin
 - [pytest](http://docs.pytest.org/en/latest/getting-started.html)
   - `pip install -U pytest`
   - Verify with `py.test --version`
-
+- [Sphinx](http://www.sphinx-doc.org/en/stable/install.html)
+  - `pip install -U sphinx`
+  - Verify with `sphinx-build --version`
 
 ## Carcassonne
 Game concepts, entities, rules, actions, etc.
